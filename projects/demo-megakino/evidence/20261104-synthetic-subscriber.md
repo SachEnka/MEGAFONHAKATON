@@ -1,8 +1,8 @@
-# SYNTHETIC INTERVIEW — не доказательство спроса
+# Модельный сценарий беседы (не полевое исследование)
 
 - Role: Абонент МегаФона 32 года, смотрит сериалы 3–4 вечера в неделю, сейчас платит за один OTT, номер МегаФона основной
-- Purpose: hypothesis generation only
-- Type: synthetic
+- Purpose: генерация гипотез; не подтверждает спрос и распространённость
+- Type: model_scenario
 - Accessed: 2026-11-04
 - Method: skill synthetic-interview
 

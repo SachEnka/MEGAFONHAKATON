@@ -2,59 +2,125 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8" />
-  <title>Отчёт — МегаКино (demo-megakino)</title>
-  <style>
-    body { font-family: Georgia, serif; max-width: 820px; margin: 2rem auto; padding: 0 1rem; line-height: 1.45; color: #1a1a1a; }
-    h1, h2 { font-family: system-ui, sans-serif; }
-    table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
-    th, td { border: 1px solid #ccc; padding: 0.4rem 0.55rem; text-align: left; vertical-align: top; }
-    th { background: #f4f4f4; }
-    .fact { background: #eef7ee; }
-    .hyp { background: #fff8e6; }
-    .fc { background: #eef3ff; }
-    a { color: #0b57d0; }
-    .meta { color: #555; font-size: 0.95rem; }
-    code { background: #f0f0f0; padding: 0.1rem 0.3rem; }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>МегаКино — стратегический отчёт</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../assets/brand.css" />
 </head>
 <body>
-  <h1>Отчёт для решения — МегаКино</h1>
-  <p class="meta">Проект <code>demo-megakino</code> · только open data · полные файлы в <code>outputs/</code>, <code>evidence/</code>, <code>state/</code></p>
+  <div class="shell">
+    <div class="topbar">
+      <div class="brand"><div class="brand-mark" aria-hidden="true"></div> Фабрика продуктов</div>
+      <div class="pill">Открытые источники · МегаКино</div>
+    </div>
 
-  <h2>Рекомендация</h2>
-  <p><strong>C + элементы B:</strong> сообщение «платите как за один — выбираете, какой из пяти активен»; допы не на первом экране; JTBD = сезонный выбор одного кинотеатра. D1 сохранён после revise 2026-11-19.</p>
-  <p>
-    <a href="outputs/product_strategy.md">Продуктовая стратегия</a> ·
-    <a href="outputs/communication_strategy.md">Коммуникационная</a> ·
-    <a href="state/decisions.md">Решение D1</a>
-  </p>
+    <section class="hero">
+      <div class="hero-band"></div>
+      <div class="hero-body">
+        <p class="eyebrow">Стратегический отчёт</p>
+        <h1>МегаКино: ясная ценность «одного активного» из пяти</h1>
+        <p class="lead">Рекомендация для руководителя цифрового продукта: выровнять обещание с механикой подписки, убрать шум допов с первого экрана и проверить эффект на понимании и раннем оттоке.</p>
+        <div class="links">
+          <a class="btn" href="outputs/product_strategy.md">Продуктовая стратегия</a>
+          <a class="btn btn-ghost" href="outputs/communication_strategy.md">Коммуникация</a>
+          <a class="btn btn-ghost" href="outputs/validation_plan.md">План проверки</a>
+        </div>
+      </div>
+    </section>
 
-  <h2>Ситуация</h2>
-  <table>
-    <tr><th>Тип</th><th>Утверждение</th><th>Источник</th></tr>
-    <tr class="fact"><td>Факт</td><td>Пять основных с переключением (не все сразу в FAQ)</td><td><a href="evidence/20261104-megakino-landing.md">landing</a> C003</td></tr>
-    <tr class="fact"><td>Факт</td><td>399 ₽ / 30 дней, состав с Кинопоиском</td><td><a href="evidence/20261104-info-kinopoisk-join.md">info</a> C006/C015</td></tr>
-    <tr class="fact"><td>Факт</td><td>Паритет ориентира с одиночными OTT</td><td><a href="evidence/20261119-competitor-ott-angle.md">competitor</a> C017</td></tr>
-    <tr class="hyp"><td>Гипотеза</td><td>Hero создаёт expectation gap</td><td><a href="evidence/20261104-ux-landing.md">ux</a> C010</td></tr>
-    <tr class="hyp"><td>Гипотеза</td><td>Без опции смены при паритете цены выгоднее прямой OTT</td><td><a href="evidence/20261119-new-signal-price-parity.md">revise</a> C019</td></tr>
-    <tr class="fc"><td>Прогноз</td><td>Честный hero снизит негатив gap (нужен A/B)</td><td>C016 · <a href="outputs/validation_plan.md">validation</a></td></tr>
-  </table>
+    <div class="grid">
+      <article class="card rec span-8">
+        <h2>Рекомендация</h2>
+        <p><strong>Ставка C + элементы B.</strong> Сообщение: «Платите как за один кинотеатр — выбираете, какой из пяти активен». Дополнительные каталоги — со второго экрана, с явной пометкой оплаты. Основной сценарий — сезонный выбор одного сервиса, а не постоянное переключение.</p>
+        <p class="muted">Решение зафиксировано в <a href="state/decisions.md">decisions</a>. После сигнала о паритете цены с одиночными OTT направление сохранено — усилилась важность ясной опции смены каталога.</p>
+      </article>
 
-  <h2>Варианты</h2>
-  <table>
-    <tr><th>Вариант</th><th>Суть</th><th>Сильное возражение</th></tr>
-    <tr><td>A</td><td>Status quo</td><td>Gap + паритет цены</td></tr>
-    <tr><td>B</td><td>Сузить ставку</td><td>Потеря широты vs OTT</td></tr>
-    <tr><td><strong>C+B</strong></td><td>Честный сезон + свитч</td><td>Возможное падение CTR — мерить</td></tr>
-    <tr><td>D</td><td>Бандл-перк тарифа</td><td>Не лечит post-connect</td></tr>
-  </table>
-  <p><a href="outputs/options.md">Подробные варианты</a></p>
+      <aside class="card span-4">
+        <h2>Кратко</h2>
+        <div class="kpis">
+          <div class="kpi"><strong>399 ₽</strong><span class="muted">за 30 дней</span></div>
+          <div class="kpi"><strong>5</strong><span class="muted">основных сервисов</span></div>
+          <div class="kpi"><strong>3</strong><span class="muted">бесплатных смены / 30 дн.</span></div>
+        </div>
+      </aside>
 
-  <h2>После решения</h2>
-  <ul>
-    <li><a href="state/revision_log.md">Revision log</a></li>
-    <li><a href="state/CURRENT.md">CURRENT.md</a> (resume)</li>
-    <li><a href="outputs/baseline_comparison.md">Стоимость / baseline</a></li>
-  </ul>
+      <section class="card span-12">
+        <h2>Картина ситуации</h2>
+        <table>
+          <thead>
+            <tr><th>Тип</th><th>Что известно</th><th>Основание</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="tag tag-fact">Факт</span></td>
+              <td>Пять основных сервисов с переключением; в FAQ — не одновременный доступ ко всем</td>
+              <td><a href="evidence/20261104-megakino-landing.md">Лендинг</a> · C003</td>
+            </tr>
+            <tr>
+              <td><span class="tag tag-fact">Факт</span></td>
+              <td>Цена 399 ₽ / 30 дней; состав включает Кинопоиск</td>
+              <td><a href="evidence/20261104-info-kinopoisk-join.md">Инфосообщение</a> · C006 / C015</td>
+            </tr>
+            <tr>
+              <td><span class="tag tag-fact">Факт</span></td>
+              <td>Ориентиры одиночных OTT сопоставимы по цене</td>
+              <td><a href="evidence/20261119-competitor-ott-angle.md">Срез цен</a> · C017</td>
+            </tr>
+            <tr>
+              <td><span class="tag tag-hyp">Гипотеза</span></td>
+              <td>Первый экран обещает «пять», механика «один активный» — разрыв ожиданий</td>
+              <td><a href="evidence/20261104-ux-landing.md">Разбор интерфейса</a> · C010</td>
+            </tr>
+            <tr>
+              <td><span class="tag tag-hyp">Гипотеза</span></td>
+              <td>При паритете цены без ясной опции смены рациональнее прямая подписка</td>
+              <td><a href="evidence/20261119-new-signal-price-parity.md">Пересмотр</a> · C019</td>
+            </tr>
+            <tr>
+              <td><span class="tag tag-fc">Прогноз</span></td>
+              <td>Честный первый экран снизит негатив «ждали другое» — нужен A/B</td>
+              <td><a href="outputs/validation_plan.md">План проверки</a> · C016</td>
+            </tr>
+          </tbody>
+        </table>
+        <p class="muted">Полная картина и пробелы (внутренние метрики недоступны на открытых данных): <a href="outputs/situation.md">situation.md</a></p>
+      </section>
+
+      <section class="card span-6">
+        <h2>Варианты</h2>
+        <div class="option"><h3>A · Оставить как есть</h3><p class="muted">Минимальные усилия. Риск: разрыв ожиданий при паритете цены.</p></div>
+        <div class="option"><h3>B · Сузить ставку</h3><p class="muted">Жёстче «один из…». Риск: потеря ощущения широты каталога.</p></div>
+        <div class="option chosen"><h3>C+B · Выбрано</h3><p class="muted">Честный сезон и смена + допы со второго экрана. Риск: ниже клик по двусмысленному офферу — измерять.</p></div>
+        <div class="option"><h3>D · Бандл тарифа</h3><p class="muted">Перк внутри тарифа. Не снимает путаницу после подключения.</p></div>
+        <p class="muted"><a href="outputs/options.md">Подробное сравнение и возражения</a></p>
+      </section>
+
+      <section class="card span-6">
+        <h2>Согласованные стратегии</h2>
+        <h3>Продукт</h3>
+        <p class="muted">Статус активного сервиса и лимиты смены — до сюрприза. Отказ от обещания «все пять сразу».</p>
+        <h3>Коммуникация</h3>
+        <p class="muted">Ключ: «как за один — какой из пяти активен». Подтверждение: состав, цена, лимиты.</p>
+        <h3>Проверка</h3>
+        <p class="muted">A/B первого экрана, comprehension, ранний отток; стоп-условия в плане проверки.</p>
+      </section>
+
+      <section class="card span-12">
+        <h2>После решения</h2>
+        <p>Ответственные, показатели и условия пересмотра — в <a href="state/decisions.md">решениях</a>. Журнал пересмотра от 19.11.2026: <a href="state/revision_log.md">revision log</a>. Состояние для продолжения работы: <a href="state/CURRENT.md">CURRENT</a>.</p>
+        <div class="links">
+          <a href="outputs/baseline_comparison.md">Время и сравнение с ручным анализом</a>
+          <a href="brief.md">Исходный запрос</a>
+          <a href="../demo-eva/report.html">Смежный кейс: Ева</a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      Материалы собраны только из открытых источников и собственных заметок проекта. Закрытые данные оператора не использовались.
+    </footer>
+  </div>
 </body>
 </html>

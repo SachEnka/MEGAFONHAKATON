@@ -5,7 +5,7 @@
 |------|-------|--------|------|----------|
 | `20261119-eva-alt-page.md` | Ева — альтернативная публичная формулировка | https://www.megafon-com.ru/services/eva/ | page | 2026-11-19 |
 | `20261119-eva-landing-spb.md` | Ева — публичный лендинг (СПб регион как образец) | https://spb.megafon.ru/services/security/eva/ | page | 2026-11-19 |
-| `20261119-eva-synthetic.md` | SYNTHETIC INTERVIEW — не доказательство спроса |  | synthetic | 2026-11-19 |
+| `20261119-eva-synthetic.md` | Модельный сценарий беседы (не полевое исследование) |  | model_scenario | 2026-11-19 |
 | `20261119-eva-ux.md` | UX-заметки по публичным страницам Евы | https://spb.megafon.ru/services/security/eva/ и https://www.megafon-com.ru/services/eva/ | screenshot / page observation | 2026-11-19 |
 
 ## Claims

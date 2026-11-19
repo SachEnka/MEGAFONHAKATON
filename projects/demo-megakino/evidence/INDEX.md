@@ -10,7 +10,7 @@
 | `20261104-press-2023-half-market.md` | Пресс-релиз 2023: расширение МегаКино (исторический контекст) | https://corp.megafon.ru/press/news/federalnye_novosti/federal/20230928-1052.html | page | 2026-11-04 |
 | `20261104-review-themes-note.md` | Демо-агрегат тем отзывов (методика) | `inputs/review_themes_aggregate.csv` | table | 2026-11-04 |
 | `20261104-reviews-table-analysis.md` | Table analysis — `review_themes_aggregate.csv` |  |  |  |
-| `20261104-synthetic-subscriber.md` | SYNTHETIC INTERVIEW — не доказательство спроса |  | synthetic | 2026-11-04 |
+| `20261104-synthetic-subscriber.md` | Модельный сценарий беседы (не полевое исследование) |  | model_scenario | 2026-11-04 |
 | `20261104-ux-landing.md` | UX-разбор публичного лендинга МегаКино | https://moscow.megafon.ru/services/megakino/ | screenshot / page observation | 2026-11-04 |
 | `20261119-competitor-ott-angle.md` | Конкурентный угол: одиночная OTT vs операторский пакет | публичные ориентиры цен из `inputs/ott_price_snapshot.csv` + механика МегаКино на https://moscow.megafon.ru/services/megakino/ | other | 2026-11-19 |
 | `20261119-new-signal-price-parity.md` | Новый сигнал: паритет цены с одной OTT | `inputs/new_data_20261119_price_hold.md` + `evidence/20261104-info-kinopoisk-join.md` | other | 2026-11-19 |

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ева — стратегический отчёт</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../assets/brand.css" />
+</head>
+<body>
+  <div class="shell">
+    <div class="topbar">
+      <div class="brand"><div class="brand-mark" aria-hidden="true"></div> Фабрика продуктов</div>
+      <div class="pill">Открытые источники · Ева</div>
+    </div>
+
+    <section class="hero">
+      <div class="hero-band"></div>
+      <div class="hero-body">
+        <p class="eyebrow">Стратегический отчёт</p>
+        <h1>Ева: бесплатное ядро антиспама и честные расширения</h1>
+        <p class="lead">Публичные витрины по-разному акцентируют «бесплатно» и платные модули. Рекомендация — выбрать один главный сценарий на первом экране и явно развести бесплатный слой и расширения.</p>
+        <div class="links">
+          <a class="btn" href="outputs/product_strategy.md">Продуктовая стратегия</a>
+          <a class="btn btn-ghost" href="outputs/communication_strategy.md">Коммуникация</a>
+          <a class="btn btn-ghost" href="outputs/validation_plan.md">План проверки</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="grid">
+      <article class="card rec span-8">
+        <h2>Рекомендация</h2>
+        <p><strong>Ставка C.</strong> Сообщение: «Ева бесплатно отсекает спам. Расширения — по желанию, цена на виду.» Секретарь и семейная безопасность — отдельные платные модули с понятным доказательством пользы.</p>
+      </article>
+      <aside class="card span-4">
+        <h2>Ориентиры</h2>
+        <div class="kpis">
+          <div class="kpi"><strong>0 ₽</strong><span class="muted">базовый слой</span></div>
+          <div class="kpi"><strong>149 ₽</strong><span class="muted">модуль «+» / 30 дн.</span></div>
+          <div class="kpi"><strong>249 ₽</strong><span class="muted">семейная / 30 дн.</span></div>
+        </div>
+      </aside>
+
+      <section class="card span-12">
+        <h2>Картина ситуации</h2>
+        <table>
+          <thead><tr><th>Тип</th><th>Что известно</th><th>Основание</th></tr></thead>
+          <tbody>
+            <tr><td><span class="tag tag-fact">Факт</span></td><td>На публичной странице есть free-слой и платные «+»</td><td><a href="evidence/20261119-eva-landing-spb.md">Лендинг</a> · E001–E004</td></tr>
+            <tr><td><span class="tag tag-fact">Факт</span></td><td>Другая витрина сильнее акцентирует «услуга бесплатна»</td><td><a href="evidence/20261119-eva-alt-page.md">Альт. страница</a> · E005</td></tr>
+            <tr><td><span class="tag tag-hyp">Гипотеза</span></td><td>Зонтичное имя и free/paid путают ценность</td><td><a href="evidence/20261119-eva-ux.md">Разбор интерфейса</a> · E007</td></tr>
+            <tr><td><span class="tag tag-hyp">Гипотеза</span></td><td>Лучше один главный сценарий в hero — антиспам</td><td>E008</td></tr>
+            <tr><td><span class="tag tag-fc">Прогноз</span></td><td>Явное разведение free и «+» снизит претензии к цене</td><td><a href="outputs/validation_plan.md">План проверки</a> · E010</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="card span-6">
+        <h2>Варианты</h2>
+        <div class="option"><h3>A · Без изменений</h3><p class="muted">Конфликт акцентов остаётся.</p></div>
+        <div class="option"><h3>B · Сильно сузить</h3><p class="muted">Только антиспам в публичной ставке.</p></div>
+        <div class="option chosen"><h3>C · Выбрано</h3><p class="muted">Free ядро + честный upsell.</p></div>
+        <p class="muted"><a href="outputs/options.md">Подробности</a></p>
+      </section>
+
+      <section class="card span-6">
+        <h2>После решения</h2>
+        <p class="muted">Роли, показатели и обязательства — в <a href="state/decisions.md">decisions</a>. Продолжение: <a href="state/CURRENT.md">CURRENT</a>.</p>
+        <div class="links">
+          <a href="../demo-megakino/report.html">Кейс МегаКино</a>
+          <a href="brief.md">Исходный запрос</a>
+        </div>
+      </section>
+    </div>
+
+    <footer class="footer">
+      Только открытые источники. Внутренняя аналитика оператора не использовалась.
+    </footer>
+  </div>
+</body>
+</html>
