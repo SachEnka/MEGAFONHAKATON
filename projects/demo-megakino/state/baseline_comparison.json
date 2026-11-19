@@ -1,0 +1,15 @@
+{
+  "ts": "2026-11-19T21:19:24.700713+00:00",
+  "project_id": "demo-megakino",
+  "agent_hours": 2.42,
+  "agent_usd_estimate": 2.07,
+  "manual_hours_estimate": 14.0,
+  "plain_chat_hours_estimate": 2.5,
+  "manual_usd_estimate": 0.0,
+  "speedup_vs_manual": 5.79,
+  "notes": [
+    "Agent hours from cost.jsonl wall-time notes (approximate).",
+    "Manual/plain-chat hours are estimates for comparison, not lab measurements.",
+    "Quality: agent enforces evidence, options, gaps; plain chat often skips them."
+  ]
+}

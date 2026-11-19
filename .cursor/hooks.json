@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "hooks": {
+    "afterFileEdit": [
+      {
+        "matcher": "projects/.*/(outputs|evidence)/.*",
+        "command": "python tools/_hook_remind.py"
+      }
+    ]
+  }
+}

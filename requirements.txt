@@ -1,0 +1,3 @@
+# Optional. Demo CLI tools run on Python 3.10+ stdlib alone.
+# Uncomment if you prefer pandas-backed exploration outside analyze_table.py:
+# pandas>=2.0

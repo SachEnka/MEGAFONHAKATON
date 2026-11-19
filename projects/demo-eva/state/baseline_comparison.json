@@ -1,0 +1,15 @@
+{
+  "ts": "2026-11-19T21:21:42.104348+00:00",
+  "project_id": "demo-eva",
+  "agent_hours": 0.83,
+  "agent_usd_estimate": 0.48,
+  "manual_hours_estimate": 8.0,
+  "plain_chat_hours_estimate": 1.5,
+  "manual_usd_estimate": 0.0,
+  "speedup_vs_manual": 9.6,
+  "notes": [
+    "Agent hours from cost.jsonl wall-time notes (approximate).",
+    "Manual/plain-chat hours are estimates for comparison, not lab measurements.",
+    "Quality: agent enforces evidence, options, gaps; plain chat often skips them."
+  ]
+}

@@ -1,0 +1,24 @@
+---
+description: Artifact paths and templates for strategist projects
+globs: projects/**/*
+alwaysApply: false
+---
+
+# Артефакты проекта
+
+При работе в `projects/<id>/`:
+
+| Фаза | Файл |
+|------|------|
+| Intake / resume | `state/CURRENT.md` |
+| Ledger | `state/ledger.md` |
+| Claims | `state/claims.jsonl` |
+| Decisions | `state/decisions.md` |
+| Evidence | `evidence/*.md` |
+| Situation | `outputs/situation.md` |
+| Options | `outputs/options.md` |
+| Product | `outputs/product_strategy.md` |
+| Comms | `outputs/communication_strategy.md` |
+| Validation | `outputs/validation_plan.md` |
+
+Бери структуру из `templates/`. Не удаляй историю ledger — только дополняй.

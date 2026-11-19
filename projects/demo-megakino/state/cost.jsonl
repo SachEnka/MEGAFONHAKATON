@@ -1,0 +1,4 @@
+{"ts": "2026-11-04T17:13:35.477202+00:00", "note": "intake+gather public evidence", "minutes": 45.0, "model": "cursor-agent", "input_tokens": 80000, "output_tokens": 25000, "usd_estimate": 0.615}
+{"ts": "2026-11-04T17:13:35.556208+00:00", "note": "research situation + options", "minutes": 35.0, "model": "cursor-agent", "input_tokens": 60000, "output_tokens": 20000, "usd_estimate": 0.48}
+{"ts": "2026-11-04T17:13:35.637203+00:00", "note": "strategy pack + decisions after resume", "minutes": 40.0, "model": "cursor-agent", "input_tokens": 70000, "output_tokens": 28000, "usd_estimate": 0.63}
+{"ts": "2026-11-19T21:19:24.611711+00:00", "note": "megakino deepen evidence + revise signal", "minutes": 25.0, "model": "cursor-agent", "input_tokens": 40000, "output_tokens": 15000, "usd_estimate": 0.345}

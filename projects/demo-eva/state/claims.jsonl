@@ -1,0 +1,10 @@
+{"id":"E001","type":"fact","text":"На публичной странице Евы заявлены блоки безопасности и секретаря, в т.ч. платные «+».","source":"evidence/20261119-eva-landing-spb.md","confidence":"high","phase":"gather"}
+{"id":"E002","type":"fact","text":"«Моя безопасность +» и «Секретарь +» — по 149 ₽ / 30 дней (FAQ региональной страницы).","source":"evidence/20261119-eva-landing-spb.md","confidence":"high","phase":"gather"}
+{"id":"E003","type":"fact","text":"«Семейная безопасность +» — 249 ₽ / 30 дней.","source":"evidence/20261119-eva-landing-spb.md","confidence":"high","phase":"gather"}
+{"id":"E004","type":"fact","text":"Есть бесплатный функционал в разделах «Моя безопасность» и «Секретарь».","source":"evidence/20261119-eva-landing-spb.md","confidence":"high","phase":"gather"}
+{"id":"E005","type":"fact","text":"Альтернативная витрина акцентирует: услуга бесплатна.","source":"evidence/20261119-eva-alt-page.md","confidence":"high","phase":"gather"}
+{"id":"E006","type":"fact","text":"Подключение через приложение МегаФон или ЛК в блоке Сервисы/Безопасность.","source":"evidence/20261119-eva-landing-spb.md","confidence":"high","phase":"gather"}
+{"id":"E007","type":"hypothesis","text":"Зонтичный бренд Ева + free/paid путают ценность и цену.","source":"evidence/20261119-eva-ux.md","confidence":"med","phase":"research"}
+{"id":"E008","type":"hypothesis","text":"Primary JTBD лучше один: антиспам ИЛИ секретарь, не оба в одном hero.","source":"evidence/20261119-eva-ux.md","confidence":"med","phase":"research"}
+{"id":"E009","type":"hypothesis","text":"Синтетика: белый список критичен для принятия секретаря.","source":"evidence/20261119-eva-synthetic.md","confidence":"low","phase":"research","synthetic":true}
+{"id":"E010","type":"forecast","text":"Явное разведение free vs + на первом экране снизит претензии «обманули с ценой».","source":"outputs/validation_plan.md","confidence":"low","phase":"strategy"}
